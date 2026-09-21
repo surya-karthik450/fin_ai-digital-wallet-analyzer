@@ -8,9 +8,11 @@ yarn-debug.log*
 yarn-error.log*
 
 # Python / Backend
-backend/__pycache__/
-backend/*.pyc
-backend/.pytest_cache/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+**/.pytest_cache/
 backend/wallet_analyzer.db
 backend/venv/
 backend/.venv/
